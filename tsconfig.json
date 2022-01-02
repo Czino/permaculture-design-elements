@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "target": "esnext",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "paths": {
+      "*": [
+        "./node_modules/*"
+      ]
+    }
+  },
+  "ts-node": {
+    "files": true
+  },
+}
