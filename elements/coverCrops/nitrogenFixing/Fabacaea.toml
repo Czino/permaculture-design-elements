@@ -1,0 +1,11 @@
+parent="CoverCrop"
+commonNames = [
+  'pea family'
+]
+properties = []
+inputs = [
+  'nitrogen',
+]
+outputs = [
+  'nitrogen',
+]

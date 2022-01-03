@@ -1,0 +1,16 @@
+parent="Fabacaea"
+commonNames = [
+  'clover'
+]
+properties = []
+inputs = [
+  'shortLived',
+  'phosphorus',
+  'calcium'
+]
+outputs = [
+  'beeAttractor',
+  'protein',
+  'phosphorus',
+  'calcium'
+]

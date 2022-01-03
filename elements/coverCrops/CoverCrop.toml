@@ -1,0 +1,10 @@
+parent="Plant"
+properties = [
+  'short'
+]
+inputs = [
+  
+]
+outputs = [
+  'livingMulch'
+]

@@ -1,0 +1,24 @@
+parent="Element"
+
+properties = [
+  'living'
+]
+inputs = [
+  'carbonDioxide',
+  'nutrients',
+  'minerals',
+  'oxygen',
+  'soil',
+  'sun',
+  'water',
+]
+outputs = [
+  'microclimate',
+  'mulch',
+  'nutrientTransport',
+  'oxygen',
+  'water',
+  'waterHolding',
+  'waterPurification',
+  'waterTransport',
+]

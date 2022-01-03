@@ -18,4 +18,8 @@
   "ts-node": {
     "files": true
   },
+  "include": [
+    "elements",
+    "index.ts"
+  ]
 }

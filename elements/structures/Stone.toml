@@ -1,0 +1,20 @@
+parent="Element"
+properties = [
+  'dead',
+  'hard',
+  'heavy',
+]
+inputs = [
+  'sun',
+  'wind',
+]
+outputs = [
+  'condensation',
+  'heatRadiation',
+  'minerals',
+  'rainCollection',
+  'shade',
+  'shelter',
+  'soilStabilization',
+  'windReduction',
+]

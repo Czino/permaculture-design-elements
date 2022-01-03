@@ -1,0 +1,16 @@
+parent="Fabacaea"
+properties = [
+  'fastGrowing',
+  'goldenFlowers',
+  'greenLeaves',
+]
+inputs = [
+  'warmth'
+]
+outputs = [
+  'flowers',
+  'nectar',
+  'saponins',
+  'seeds',
+  'tannins',
+]

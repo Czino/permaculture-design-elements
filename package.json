@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "A collection and description of design elements in respect to permaculture design principles",
   "scripts": {
-    "build": "tsc --project ./",
+    "start": "tsc --project ./ & node ./dist/index.js",
+    "start:dev": "nodemon",
+    "build": "tsc --project ./index.ts",
     "lint": "eslint './elements/**/*.{js,ts}'"
   },
   "repository": {
@@ -16,12 +18,16 @@
     "url": "https://github.com/Czino/permaculture-design-elements/issues"
   },
   "homepage": "https://github.com/Czino/permaculture-design-elements#readme",
-  "dependencies": {},
   "devDependencies": {
+    "@types/glob": "^7.2.0",
+    "@types/node": "^16.11.18",
     "@typescript-eslint/eslint-plugin": "^5.5.0",
     "@typescript-eslint/parser": "^5.5.0",
     "eslint": "^7.32.0",
     "eslint-plugin-jsdoc": "^35.5.0",
+    "glob": "^7.2.0",
+    "nodemon": "^2.0.15",
+    "toml": "^3.0.0",
     "ts-node": "^10.2.1"
   }
 }

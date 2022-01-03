@@ -1,0 +1,11 @@
+parent="Tree"
+commonNames = [
+  'pea family',
+  'nitrogen fixing trees'
+]
+inputs = [
+  'nitrogen',
+]
+outputs = [
+  'nitrogen',
+]

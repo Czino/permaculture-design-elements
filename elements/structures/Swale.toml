@@ -1,0 +1,18 @@
+parent="Element"
+properties = [
+  'level',
+  'long',
+  'wavy',
+  'sinusoidal',
+]
+inputs = [
+  'mulch',
+  'rain',
+]
+outputs = [
+  'rainCollection',
+  'shade',
+  'shelter',
+  'soilStabilization',
+  'windReduction',
+]

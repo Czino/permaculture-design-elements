@@ -1,0 +1,33 @@
+parent="Plant"
+properties = [
+  'bigSurfaceArea',
+  'branchPattern',
+  'hard',
+  'roots',
+  'tall',
+  'torus',
+  'perennial'
+]
+
+inputs = [
+  'pollen',
+  'pruning',
+  'wind',
+]
+
+outputs = [
+  'bark',
+  'dustCollection',
+  'mulch',
+  'nutrientTransport',
+  'privacy',
+  'rainProtection',
+  'sap',
+  'seeds',
+  'shadow',
+  'soilLoosening',
+  'soilStabilization',
+  'wildlifeHabitat',
+  'windReduction',
+  'wood',
+]
