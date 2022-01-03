@@ -2,9 +2,10 @@ parent="Fabacaea"
 commonNames = [
   'clover'
 ]
-properties = []
-inputs = [
+properties = [
   'shortLived',
+]
+inputs = [
   'phosphorus',
   'calcium'
 ]

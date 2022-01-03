@@ -1,0 +1,53 @@
+parent="Fabacaea"
+commonNames = [
+  'alfalfa',
+  'lucerne',
+  'luzerne',
+  'purple medic',
+]
+properties = [
+  'perennial',
+  'deepRoots',
+  'autotoxicity'
+]
+inputs = [
+  'calcium',
+  'neutralpH',
+  'phosphate',
+  'potassium',
+  'pruning',
+  'wellDrainedSoil',
+]
+incompatible = [
+  'salt'
+]
+outputs = [
+  'beeAttractor',
+  'calcium',
+  'canavanine',
+  'carotene',
+  'carotenoids',
+  'chlorophyll',
+  'fibre',
+  'fodder',
+  'greenManure',
+  'hay',
+  'insectAttractor',
+  'mulch',
+  'phosphate',
+  'phytoestrogens',
+  'protein',
+  'VitaminB',
+  'VitaminC',
+  'VitaminD',
+  'VitaminE',
+  'VitaminK',
+]
+edible = [
+  'flowers',
+  'leaves',
+]
+medicinal = [
+  'seeds',
+  'stems'
+]
