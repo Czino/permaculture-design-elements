@@ -1,4 +1,7 @@
-parent="Tree"
+parent='Tree'
+properties=[
+
+]
 commonNames = [
   'pea family',
   'nitrogen fixing trees'

@@ -1,4 +1,4 @@
-parent="Fabacaea"
+parent='Fabaceae'
 properties = [
   'fastGrowing',
   'goldenFlowers',

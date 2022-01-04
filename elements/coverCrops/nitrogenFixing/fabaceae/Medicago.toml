@@ -1,4 +1,5 @@
-parent="Fabacaea"
+parent='Fabaceae'
+name='Medicago sativa'
 commonNames = [
   'alfalfa',
   'lucerne',

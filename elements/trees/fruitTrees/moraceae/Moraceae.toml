@@ -1,0 +1,23 @@
+parent='Tree'
+name='Moraceae'
+properties = [
+]
+commonNames = [
+  'fig family',
+  'mulberry family',
+]
+
+inputs = [
+]
+outputs = [
+  'flower',
+  'fruit',
+  'milkySap',
+]
+edible = [
+  'fruits',
+]
+medicinal = [
+]
+pests = [
+]

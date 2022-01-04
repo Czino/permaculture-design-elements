@@ -1,4 +1,4 @@
-parent="Element"
+parent='Element'
 
 properties = [
   'living'

@@ -1,4 +1,4 @@
-parent="Plant"
+parent='Plant'
 properties = [
   'short'
 ]

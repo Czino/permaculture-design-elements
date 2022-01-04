@@ -1,0 +1,48 @@
+parent='Moraceae'
+name='Ficus carica'
+properties = [
+  'deciduous',
+  'invasiveRoots',
+  'shallowRoots',
+  'smallTree',
+  'tallShrub',
+]
+commonNames = [
+  'adriatic fig',
+  'common fig',
+  'fig tree',
+  'fig',
+  'symrna fig'
+]
+
+inputs = [
+  'copper',
+  'directSun',
+  'dryMonths',
+  'figWasp',
+  'iron',
+  'potassium',
+]
+outputs = [
+  'calcium',
+  'carbohydrates',
+  'copper',
+  'iron',
+  'potassium',
+  'scent',
+  'sugar',
+  'vitaminA',
+]
+edible = [
+  'fruits',
+]
+medicinal = [
+]
+pests = [
+  'Aphid',
+  'FigStemBorer',
+  'FruitGly',
+  'MealyBug',
+  'Nematode',
+  'Scale',
+]

@@ -1,4 +1,4 @@
-parent="CoverCrop"
+parent='CoverCrop'
 commonNames = [
   'pea family'
 ]
