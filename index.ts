@@ -44,8 +44,13 @@ const allMaterial = glob.sync(path.join(__dirname, 'elements/**/*.toml'))
     path,
     toml.parse(file as string)
   ])
+  .filter(([, element]) => element.name)
   .map(([path, element]) => {
+    element.id = element.name.toLowerCase()
     element.path = path
+    element.groups = element.groups
+      ? element.groups.map((group: string) => group.toLowerCase())
+      : []
     return element
   })
   .sort((a, b) => {
@@ -56,17 +61,17 @@ const allMaterial = glob.sync(path.join(__dirname, 'elements/**/*.toml'))
     const parent = element.path[element.path.length - 1]
 
     if (!parent) return element
-    const parentElement = elements
-      .filter(e => e.name)
-      .find((e: Element) => e.name.toLowerCase() === parent.toLowerCase())
-
-    if (!parentElement) return element
+    const parentElement = elements.find((e: Element) => e.id === parent)
+    const groups = elements.filter((e: Element) => element.groups.indexOf(e.id) !== -1)
 
     ;['properties', 'inputs', 'outputs', 'edible', 'medicinal', 'pests']
-      .filter(attr => parentElement[attr])
       .forEach(attr => {
-        element[attr] = element[attr].concat(parentElement[attr]).filter(unique)
-      });
-    console.log(element.name, parentElement.name, element.properties)
+        if (parentElement && parentElement[attr]) element[attr] = element[attr].concat(parentElement[attr]).filter(unique)
+        groups.forEach(group => {
+          if (group && group[attr]) element[attr] = element[attr].concat(group[attr]).filter(unique)
+        })
+      })
     return element
   })
+
+console.log(allMaterial)
