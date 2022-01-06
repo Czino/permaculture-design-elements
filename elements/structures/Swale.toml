@@ -1,4 +1,4 @@
-parent='Element'
+name = 'Swale'
 properties = [
   'level',
   'long',

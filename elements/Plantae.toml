@@ -1,5 +1,4 @@
-parent='Element'
-
+name = 'Plantae'
 properties = [
   'living'
 ]

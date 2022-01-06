@@ -1,4 +1,4 @@
-parent='Element'
+name = 'Stone'
 properties = [
   'dead',
   'hard',

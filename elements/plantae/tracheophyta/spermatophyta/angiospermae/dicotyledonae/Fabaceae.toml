@@ -1,10 +1,10 @@
-parent='Tree'
-properties=[
-
-]
+name='Fabaceae'
 commonNames = [
   'pea family',
   'nitrogen fixing trees'
+]
+properties = [
+
 ]
 inputs = [
   'nitrogen',

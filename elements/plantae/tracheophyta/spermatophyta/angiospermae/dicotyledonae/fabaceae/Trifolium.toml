@@ -1,9 +1,10 @@
-parent='Fabaceae'
+name = 'Trifolium'
 commonNames = [
   'clover'
 ]
 properties = [
   'shortLived',
+  'short',
 ]
 inputs = [
   'phosphorus',
@@ -13,5 +14,6 @@ outputs = [
   'beeAttractor',
   'protein',
   'phosphorus',
-  'calcium'
+  'calcium',
+  'livingMulch'
 ]

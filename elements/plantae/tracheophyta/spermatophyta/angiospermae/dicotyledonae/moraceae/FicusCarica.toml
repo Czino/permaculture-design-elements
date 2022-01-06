@@ -1,5 +1,7 @@
-parent='Moraceae'
-name='Ficus carica'
+name = 'Ficus carica'
+groups = [
+  'Tree'
+]
 properties = [
   'deciduous',
   'invasiveRoots',
@@ -34,7 +36,6 @@ outputs = [
   'vitaminA',
 ]
 edible = [
-  'fruits',
 ]
 medicinal = [
 ]

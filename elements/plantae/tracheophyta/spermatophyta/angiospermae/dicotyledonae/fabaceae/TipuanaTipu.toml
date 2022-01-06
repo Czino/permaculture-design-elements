@@ -1,4 +1,12 @@
-parent='Fabaceae'
+name = 'Tipuana Tipu'
+groups = [
+  'Tree'
+]
+commonNames = [
+  'tipa',
+  'rosewood',
+  'pride of Bolivia'
+]
 properties = [
   'fastGrowing',
   'goldenFlowers',

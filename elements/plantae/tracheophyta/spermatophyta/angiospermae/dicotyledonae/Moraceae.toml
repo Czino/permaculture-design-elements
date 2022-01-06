@@ -1,5 +1,4 @@
-parent='Tree'
-name='Moraceae'
+name = 'Moraceae'
 properties = [
 ]
 commonNames = [
