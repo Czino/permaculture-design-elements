@@ -42,7 +42,7 @@ medicinal = [
 pests = [
   'Aphid',
   'FigStemBorer',
-  'FruitGly',
+  'FruitFly',
   'MealyBug',
   'Nematode',
   'Scale',

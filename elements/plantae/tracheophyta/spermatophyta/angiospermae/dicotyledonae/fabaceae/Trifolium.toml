@@ -15,5 +15,6 @@ outputs = [
   'protein',
   'phosphorus',
   'calcium',
-  'livingMulch'
+  'livingMulch',
+  'coverCrop'
 ]

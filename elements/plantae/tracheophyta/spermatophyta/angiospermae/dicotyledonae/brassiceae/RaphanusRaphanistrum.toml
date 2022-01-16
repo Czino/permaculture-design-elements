@@ -1,0 +1,36 @@
+name = 'Raphanus Raphanistrum'
+groups = [
+]
+commonNames = [
+  'radish'
+]
+properties = [
+]
+inputs = [
+  'neutralpH',
+  'directSun'
+]
+outputs = [
+  'vitaminB1',
+  'vitaminB2',
+  'vitaminB3',
+  'vitaminB5',
+  'vitaminB6',
+  'vitaminB9',
+  'vitaminC',
+  'Calcium',
+  'Iron',
+  'Magnesium',
+  'Manganese',
+  'Phosphorus',
+  'Potassium',
+  'Zinc',
+  'seedOil',
+  'livingMulch',
+  'coverCrop',
+  'soilDecompacting'
+]
+
+pests = [
+  'CabbageRootMaggot'
+]
