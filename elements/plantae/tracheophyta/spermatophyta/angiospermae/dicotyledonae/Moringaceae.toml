@@ -1,0 +1,59 @@
+name = 'Moraceae'
+commonNames = [
+  'moringa'
+]
+groups = [
+  'Tree'
+]
+properties = [
+  'deciduous'
+]
+inputs = [
+  'warmth',
+  'dry',
+  'directSun',
+  'calcium',
+  'iron',
+  'magnesium',
+  'manganese',
+  'phosphorus',
+  'potassium',
+  'sodium',
+  'zinc'
+]
+outputs = [
+  'flower',
+  'fruit',
+  'seedOil',
+  'fodder',
+  'vitaminA',
+  'vitaminB1',
+  'vitaminB2',
+  'vitaminB3',
+  'vitaminB5',
+  'VitaminB6',
+  'vitaminB9',
+  'vitaminC',
+  'calcium',
+  'iron',
+  'magnesium',
+  'manganese',
+  'phosphorus',
+  'potassium',
+  'sodium',
+  'zinc',
+  'polyphenols',
+  'omega3'
+]
+edible = [
+  'fruits',
+  'leaves',
+  'roots',
+  'flowers'
+]
+medicinal = [
+  'leaves'
+]
+pests = [
+  'caterpillar'
+]
