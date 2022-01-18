@@ -1,0 +1,15 @@
+name='Brassicaceae'
+commonNames = [
+  'mustard family',
+  'cabbage family',
+  'crucifers'
+]
+properties = [
+  'four free sepals',
+  'four free alternating petals',
+  'two short and four longer free stamens'
+]
+inputs = [
+]
+outputs = [
+]
