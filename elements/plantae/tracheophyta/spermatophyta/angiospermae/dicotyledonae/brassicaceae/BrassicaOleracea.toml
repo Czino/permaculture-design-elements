@@ -1,0 +1,22 @@
+name = 'Brassica oleracea'
+groups = [
+]
+commonNames = [
+  'cabbage',
+  'broccoli',
+  'cauliflower',
+  'kale',
+  'brussels sprouts',
+  'collard greens',
+  'savoy cabbage',
+  'kohlrabi',
+  'gai lan'
+]
+properties = [
+]
+inputs = [
+]
+outputs = [
+]
+pests = [
+]

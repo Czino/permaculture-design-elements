@@ -1,0 +1,58 @@
+name = 'Brassica oleracea var. italica'
+groups = [
+]
+commonNames = [
+  'broccoli',
+]
+properties = [
+  'green',
+  'yellowFlowers',
+  'treeLike'
+]
+inputs = [
+  'calcium',
+  'iron',
+  'magnesium',
+  'manganese',
+  'phosphorus',
+  'potassium',
+  'sodium',
+  'zinc',
+  'nitrogen'
+]
+outputs = [
+  'vitamin A',
+  'vitaminB1',
+  'vitaminB2',
+  'vitaminB3',
+  'vitaminB5',
+  'vitaminB6',
+  'vitaminB9',
+  'choline',
+  'vitaminC',
+  'vitaminE',
+  'vitaminK',
+  'calcium',
+  'iron',
+  'magnesium',
+  'manganese',
+  'phosphorus',
+  'potassium',
+  'sodium',
+  'zinc',
+  'glucosinolate'
+]
+edible = [
+  'flowers',
+  'stalks',
+  'leaves',
+]
+pests = [
+  'Aphids',
+  'CabbageLooper',
+  'CabbageMaggot',
+  'CabbageWebworm',
+  'Cross-stripedCabbageworm',
+  'DiamondbackMothCaterpillars',
+  'HarlequinBug'
+]

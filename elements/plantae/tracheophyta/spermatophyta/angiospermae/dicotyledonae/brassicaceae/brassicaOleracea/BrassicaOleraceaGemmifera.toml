@@ -1,40 +1,14 @@
-name = 'Moraceae'
-commonNames = [
-  'moringa'
-]
+name = 'Brassica oleracea var. gemmifera'
 groups = [
-  'Tree'
+]
+commonNames = [
+  'brussel sprouts',
 ]
 properties = [
-  'deciduous',
-  'taproot'
+  'green',
+  'helix'
 ]
 inputs = [
-  'warmth',
-  'dry',
-  'directSun',
-  'calcium',
-  'iron',
-  'magnesium',
-  'manganese',
-  'phosphorus',
-  'potassium',
-  'sodium',
-  'zinc'
-]
-outputs = [
-  'flower',
-  'fruit',
-  'seedOil',
-  'fodder',
-  'vitaminA',
-  'vitaminB1',
-  'vitaminB2',
-  'vitaminB3',
-  'vitaminB5',
-  'VitaminB6',
-  'vitaminB9',
-  'vitaminC',
   'calcium',
   'iron',
   'magnesium',
@@ -43,19 +17,33 @@ outputs = [
   'potassium',
   'sodium',
   'zinc',
-  'polyphenols',
-  'omega3',
-  'soilStabilization'
+  'nitrogen'
+]
+outputs = [
+  'vitaminA',
+  'vitaminB1',
+  'vitaminB2',
+  'vitaminB3',
+  'vitaminB5',
+  'vitaminB6',
+  'vitaminB9',
+  'choline',
+  'vitaminC',
+  'vitaminE',
+  'vitaminK',
+  'calcium',
+  'iron',
+  'magnesium',
+  'manganese',
+  'phosphorus',
+  'potassium',
+  'sodium',
+  'zinc',
+  'sulforaphane'
 ]
 edible = [
-  'fruits',
-  'leaves',
-  'roots',
-  'flowers'
-]
-medicinal = [
-  'leaves'
+  'sprouts',
 ]
 pests = [
-  'caterpillar'
+ 'CabbageWorm'
 ]

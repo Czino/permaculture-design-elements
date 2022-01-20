@@ -30,7 +30,9 @@ outputs = [
   'coverCrop',
   'soilDecompacting'
 ]
-
+edible = [
+  'roots'
+]
 pests = [
   'CabbageRootMaggot'
 ]
